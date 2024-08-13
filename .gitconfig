@@ -1,3 +1,11 @@
 [user]
 	name = hieudt183739
 	email = video06072000@gmail.com
+
+# use neovim to view diffence
+[difftool]
+    prompt = true
+[diff]
+    tool = nvimdiff
+[difftool "nvimdiff"]
+    cmd = "nvim -d \"$LOCAL\" \"$REMOTE\""

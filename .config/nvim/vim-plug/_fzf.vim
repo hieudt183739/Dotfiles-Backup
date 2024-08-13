@@ -1,5 +1,6 @@
+let g:fzf_vim = {}
 
-
+" -------------------------------
 "" Tìm file trong project, nhưng bỏ mấy thư mục như node_modules ra, để tìm nhẹ hơn.
 set wildmode=list:longest,list:full
 set wildignore+=*.o,*.obj,.git,*.rbc,*.pyc,__pycache__
