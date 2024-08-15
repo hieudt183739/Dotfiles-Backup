@@ -1,0 +1,14 @@
+disableStartupPopups: true
+
+# setting GUI
+gui:
+  theme:
+        # Border color of focused window
+        activeBorderColor:
+          - purple
+          - bold
+    
+        # Border color of focused window when searching in that window
+        searchingActiveBorderColor:
+          - purple
+          - bold
