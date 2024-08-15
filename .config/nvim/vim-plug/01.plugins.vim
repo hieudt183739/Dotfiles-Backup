@@ -18,11 +18,11 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'vim-airline/vim-airline'
     Plug 'vim-airline/vim-airline-themes'
     Plug 'morhetz/gruvbox'
-    " switch between tabs"
+    Plug 'Mofiqul/vscode.nvim'
+    " switch between windows"
     Plug 'christoomey/vim-tmux-navigator'
     " Suggest code
     Plug 'neoclide/coc.nvim', {'branch': 'release'}
- 
     " Termial
     Plug 'voldikss/vim-floaterm' 
     " FZF
@@ -30,5 +30,11 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'junegunn/fzf.vim'
     " sua dau ngoac trong vim
     Plug 'tpope/vim-surround'
-    
+    " Syntax highlight
+    Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
+    " Git/Github
+    Plug 'kdheepak/lazygit.nvim'
+    Plug 'lewis6991/gitsigns.nvim'
+
+
     call plug#end()

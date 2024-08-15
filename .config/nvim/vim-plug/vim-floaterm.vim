@@ -1,3 +1,4 @@
 let g:floaterm_keymap_toggle = '<A-;>'
-"hi FloatermBorder guibg=red
-" highlight FloatermBorder guifg=#ff0000
+highlight FloatermBorder guibg=#1F1F1F
+"highlight FloatermBorder guifg=#1F1F1F
+

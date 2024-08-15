@@ -5,7 +5,6 @@ let g:NERDTreeGitStatusWithFlags = 1
 nnoremap <silent> <A-o> :NERDTreeToggle<CR>
 nnoremap <silent> <C-f> :NERDTreeFind<CR>
 
-
 let s:colors = {
   \ 'brown'       : "905532",
   \ 'aqua'        : "3AFFDB",
