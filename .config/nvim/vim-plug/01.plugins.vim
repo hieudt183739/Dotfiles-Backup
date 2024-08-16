@@ -37,5 +37,4 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'kdheepak/lazygit.nvim'
     Plug 'lewis6991/gitsigns.nvim'
 
-
     call plug#end()

@@ -1,4 +1,5 @@
 {
   "python.analysis.typeCheckingMode": "off",
-  "inlayHint.enable": "false"
+  "inlayHint.enable": "false", 
+  "snippets.userSnippetsDirectory": "~/.config/nvim/snippets"
 }
