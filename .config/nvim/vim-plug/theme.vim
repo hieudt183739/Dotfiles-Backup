@@ -1,5 +1,12 @@
-" theme
-colorscheme gruvbox 
+" theme - use it like vscode theme
+lua << EOF
+require("vscode_modern").setup({
+    cursorline = true,
+    transparent_background = false,
+    nvim_tree_darker = true,
+})
+vim.cmd.colorscheme("vscode_modern")
+EOF
 
 " background color 
 highlight Normal ctermbg=black guibg=#1F1F1F

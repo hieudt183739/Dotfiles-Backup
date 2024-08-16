@@ -19,6 +19,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'vim-airline/vim-airline-themes'
     Plug 'morhetz/gruvbox'
     Plug 'Mofiqul/vscode.nvim'
+    Plug 'gmr458/vscode_modern_theme.nvim'
     " switch between windows"
     Plug 'christoomey/vim-tmux-navigator'
     " Suggest code
