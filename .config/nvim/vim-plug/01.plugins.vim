@@ -34,7 +34,10 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " Syntax highlight
     Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
     " Git/Github
+    "
     Plug 'kdheepak/lazygit.nvim'
     Plug 'lewis6991/gitsigns.nvim'
+    " Markdown preview
+    Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && npx --yes yarn install' }
 
     call plug#end()

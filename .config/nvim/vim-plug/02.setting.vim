@@ -7,13 +7,3 @@ set expandtab
 
 "alt+c to close the current buffer
 nnoremap <M-c> :bd<CR>
-
-"Tự động tắt highlight khi nhấn phím Esc
-function! ClearSearchHighlight()
-  if !&hlsearch
-    return
-  endif
-  nohlsearch
-endfunction
-autocmd ModeChanged *:[nv] call ClearSearchHighlight()
-
