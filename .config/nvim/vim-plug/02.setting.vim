@@ -16,3 +16,7 @@ vnoremap <C-v> "+p
 "ctrl+c to copy
 nnoremap <C-c> "+y
 vnoremap <C-c> "+y
+
+"alt+. to go back buffer
+nnoremap <silent> <A-.> :b#<CR>
+inoremap <silent> <A-.> <Esc>:b#<CR>a

@@ -49,3 +49,9 @@ require('gitsigns').setup {
   },
 }
 EOF
+
+"gh để mở git hunk ở dòng hiện tại 
+nnoremap <silent> gh :Gitsigns preview_hunk_inline<CR>
+"gb để mở git blame ở dòng hiện tại
+nnoremap <silent> gb :Gitsigns toggle_current_line_blame<CR>
+

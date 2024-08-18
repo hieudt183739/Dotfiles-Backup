@@ -3,9 +3,9 @@ autocmd BufEnter * if tabpagenr('$') == 1 && winnr('$') == 1 && exists('b:NERDTr
 
 let g:NERDTreeGitStatusWithFlags = 1
 nnoremap <silent> <A-o> :NERDTreeToggle<CR>
-nnoremap <silent> <C-f> :NERDTreeFind<CR>
+nnoremap <silent> <A-f> :NERDTreeFind<CR>
 inoremap <silent> <A-o> <Esc>:NERDTreeToggle<CR>
-inoremap <silent> <C-f> <Esc>:NERDTreeFind<CR>
+inoremap <silent> <A-f> <Esc>:NERDTreeFind<CR>
 
 let s:colors = {
   \ 'brown'       : "905532",
