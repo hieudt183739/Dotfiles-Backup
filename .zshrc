@@ -131,6 +131,8 @@ source $ZSH/oh-my-zsh.sh
 HISTSIZE=10000
 SAVEHIST=10000
 
+# zoxide setup
+eval "$(zoxide init zsh)"
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
@@ -139,4 +141,4 @@ export NVM_DIR="$HOME/.nvm"
 # My shortkey map
 alias vim="nvim"
 alias :q="exit"
-
+alias cd="z"
