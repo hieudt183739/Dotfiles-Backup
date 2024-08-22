@@ -48,7 +48,7 @@ let g:airline_symbols.branch = ''
 let g:airline_symbols.readonly = ''
 let g:airline_symbols.linenr = ' '
 
-" sử dụng 
+" alt+1-8 để điều hướng
 nmap <M-1> <Plug>AirlineSelectTab1
 nmap <M-2> <Plug>AirlineSelectTab2
 nmap <M-3> <Plug>AirlineSelectTab3
@@ -57,4 +57,15 @@ nmap <M-5> <Plug>AirlineSelectTab5
 nmap <M-6> <Plug>AirlineSelectTab6
 nmap <M-7> <Plug>AirlineSelectTab7
 nmap <M-8> <Plug>AirlineSelectTab8
-nmap <M-9> <Plug>AirlineSelectTab9
+imap <M-1> <Esc><Plug>AirlineSelectTab1
+imap <M-2> <Esc><Plug>AirlineSelectTab2
+imap <M-3> <Esc><Plug>AirlineSelectTab3
+imap <M-4> <Esc><Plug>AirlineSelectTab4
+imap <M-5> <Esc><Plug>AirlineSelectTab5
+imap <M-6> <Esc><Plug>AirlineSelectTab6
+imap <M-7> <Esc><Plug>AirlineSelectTab7
+imap <M-8> <Esc><Plug>AirlineSelectTab8
+
+" alt + 9 để chuyển đến buf cuối cùng
+nnoremap <silent> <M-9> :blast<CR>
+inoremap <silent> <M-9> <Esc>:blast<CR>

@@ -20,3 +20,12 @@ vnoremap <C-c> "+y
 "alt+. to go back buffer
 nnoremap <silent> <A-.> :b#<CR>
 inoremap <silent> <A-.> <Esc>:b#<CR>a
+
+"alt+h/j/k/l để điều kiển con trỏ ở chế độ insert
+inoremap <A-h> <Left>
+inoremap <A-j> <Down>
+inoremap <A-k> <Up>
+inoremap <A-l> <Right>
+
+" alt+backspace to remove a word in insert mode
+inoremap <M-BS> <C-w>

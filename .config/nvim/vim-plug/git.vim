@@ -50,6 +50,8 @@ require('gitsigns').setup {
 }
 EOF
 
+"gl để mở LazyGit
+nnoremap <silent> gl :LazyGit<CR>
 "gh để mở git hunk ở dòng hiện tại 
 nnoremap <silent> gh :Gitsigns preview_hunk_inline<CR>
 "gb để mở git blame ở dòng hiện tại
