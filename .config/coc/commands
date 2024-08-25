@@ -1,4 +1,11 @@
 editor.action.organizeImport
+editor.action.organizeImport
+snippets.editSnippets
+document.showIncomingCalls
+document.toggleCodeLens
+document.toggleCodeLens
+snippets.editSnippets
+editor.action.organizeImport
 pyright.version
 editor.action.organizeImport
 editor.action.organizeImport

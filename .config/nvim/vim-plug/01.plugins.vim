@@ -40,5 +40,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && npx --yes yarn install' }
     " Maximine a splited window
     Plug 'szw/vim-maximizer'
+    " Comment 
+    Plug 'tpope/vim-commentary'
 
 call plug#end()

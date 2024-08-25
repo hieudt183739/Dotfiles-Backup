@@ -5,7 +5,7 @@ require("vscode_modern").setup({
     transparent_background = false,
     nvim_tree_darker = true,
 })
-vim.cmd.colorscheme("vscode_modern")
+vim.cmd.colorscheme("vscode")
 EOF
 
 " background color 
