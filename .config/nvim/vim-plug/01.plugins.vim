@@ -25,7 +25,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " Suggest code
     Plug 'neoclide/coc.nvim', {'branch': 'release'}
     " Termial
-    Plug 'voldikss/vim-floaterm' 
+    Plug 'voldikss/vim-floaterm'
     " FZF
     Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
     Plug 'junegunn/fzf.vim'
@@ -40,7 +40,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && npx --yes yarn install' }
     " Maximine a splited window
     Plug 'szw/vim-maximizer'
-    " Comment 
+    " Comment
     Plug 'tpope/vim-commentary'
 
 call plug#end()

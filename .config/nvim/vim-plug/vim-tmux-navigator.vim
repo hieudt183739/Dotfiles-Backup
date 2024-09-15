@@ -5,4 +5,3 @@ nnoremap <silent> {c-k} :TmuxNavigateUp<cr>
 nnoremap <silent> {c-l} :TmuxNavigateRight<cr>
 
 
-hi Normal guibg=NONE ctermbg=NONE
