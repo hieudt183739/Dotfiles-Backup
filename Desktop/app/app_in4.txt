@@ -1,0 +1,3 @@
+knime(https://www.knime.com/downloads): sử dụng để xử lý dữ liệu và machine learning mà không cần code, sử dụng GUI
+video_to_gif: chuyển video quay màn hình gần nhất sang gif
+Mathpix_snipping_tool(https://mathpix.com/docs/snip/linux-overview): chụp ảnh màn hình và chuyển thành Latex
