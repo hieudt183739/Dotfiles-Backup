@@ -127,9 +127,9 @@ source $ZSH/oh-my-zsh.sh
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
 
-# allow to save 10000 commands in history
-HISTSIZE=10000
-SAVEHIST=10000
+# allow to save 20000 commands in history
+HISTSIZE=20000
+SAVEHIST=20000
 
 # zoxide setup
 eval "$(zoxide init zsh)"
